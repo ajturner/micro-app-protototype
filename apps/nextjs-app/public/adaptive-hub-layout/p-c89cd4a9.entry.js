@@ -1,0 +1,2 @@
+import{r as t,h as o}from"./p-accf552a.js";const s=":host{display:block}.layout{display:flex;flex-direction:column;width:100%}";let a=class{constructor(o){t(this,o)}async componentWillLoad(){const t=await fetch(this.config);this.layoutConfig=await t.json()}render(){return o("div",{class:"layout"},this.layoutConfig&&this.layoutConfig.rows.map((t=>o("hub-layout-row",{config:t}))))}};a.style=s;export{a as hub_layout};
+//# sourceMappingURL=p-c89cd4a9.entry.js.map

@@ -1,0 +1,2 @@
+import{r as o,h as s}from"./p-accf552a.js";const t=":host{display:block}.row{display:flex;flex-direction:row;width:100%}";let r=class{constructor(s){o(this,s)}render(){return s("div",{class:"row",style:this.config.style},this.config.sections.map((o=>s("hub-layout-section",{config:o}))))}};r.style=t;export{r as hub_layout_row};
+//# sourceMappingURL=p-92f096a5.entry.js.map

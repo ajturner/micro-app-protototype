@@ -1,0 +1,6 @@
+{
+  "name": "component-gallery/hydrate",
+  "description": "ComponentGallery component hydration app.",
+  "main": "index.js",
+  "types": "index.d.ts"
+}

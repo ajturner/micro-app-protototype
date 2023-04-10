@@ -1,0 +1,22 @@
+{
+  "name": "micro-app-prototype",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "npm run build:layout && npm run build:gallery && npm run build:nextjs",
+    "build:layout": "cd packages/adaptive-page-layout-prototype && npm run build",
+    "build:gallery": "cd packages/component-gallery && npm run build",
+    "build:react": "cd packages/component-library-react && npm run build",
+    "build:nextjs": "cd apps/nextjs-app && npm run build",
+    "start": "cd apps/nextjs-app && npm run dev",
+    "server": "node server.js"
+  },
+  "author": "Andrew Turner <ajturner@highearthorbit.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "next": "^13.3.0"
+  }
+}
